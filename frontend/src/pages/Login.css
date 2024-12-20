@@ -1,0 +1,18 @@
+/* The animation for the 'give_animation' class */
+/* The animation for the 'give_animation' class */
+@keyframes fadeInScale {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .give_animation {
+    animation: fadeInScale 1.5s ease-out 1;  /* Animation runs once */
+    animation-fill-mode: forwards; /* Keeps the final state of the animation */
+  }
+  
